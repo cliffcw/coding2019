@@ -45,7 +45,7 @@ public class ConnectionTest {
 		Assert.assertEquals(1000, data.length);
 		
 		
-		// 测试不充分，没有断言内容是否正确
+		// there are need some test about the content true or false
 	}
 
 }
