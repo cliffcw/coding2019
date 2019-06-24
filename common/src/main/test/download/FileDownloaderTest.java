@@ -24,7 +24,7 @@ public class FileDownloaderTest {
 		
 		String url = "http://images2015.cnblogs.com/blog/610238/201604/610238-20160421154632101-286208268.png"; //source file
 		
-		FileDownloader downloader = new FileDownloader(url,"/Users/chenwan/IdeaProjects/myProjects/coding2019/common/src/main/picture/test.jpg"); //file of destination
+		FileDownloader downloader = new FileDownloader(url,"/Users/chenwan/IdeaProjects/myProjects/coding2019/common/src/main/file/test.jpg"); //file of destination
 
 		ConnectionManager cm = new ConnectionManagerImpl();
 		downloader.setConnectionManager(cm);
