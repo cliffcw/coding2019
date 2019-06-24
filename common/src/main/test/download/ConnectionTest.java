@@ -1,4 +1,4 @@
-package main.test;
+package main.test.download;
 
 import main.com.chenwan.coding2019.download.api.Connection;
 import main.com.chenwan.coding2019.download.api.ConnectionManager;
