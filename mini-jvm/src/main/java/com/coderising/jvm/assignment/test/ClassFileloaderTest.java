@@ -74,7 +74,7 @@ public class ClassFileloaderTest {
 	}
 	
 	
-    @Test	
+    @Test
 	public void testMagicNumber(){
     	ClassFileLoader loader = new ClassFileLoader();
 		loader.addClassPath(path1);
