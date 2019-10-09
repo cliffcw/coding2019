@@ -11,6 +11,8 @@
     <modules>
         <module>common</module>
         <module>mini-jvm</module>
+        <module>practice</module>
+        <module>mini-spring</module>
     </modules>
 
 </project>
