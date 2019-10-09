@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class MiniJVMTest {
 	
-	static final String PATH = "/Users/chenwan/IdeaProjects/myProjects/liuxin/mini-jvm-answer/bin";
+	static final String PATH = "/Users/chenwan/IdeaProjects/myProjects/cw/mini-jvm-answer/bin";
 	@Before
 	public void setUp() throws Exception {
 	}

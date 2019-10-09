@@ -32,7 +32,7 @@ public class ResourceTest {
 	@Test
 	public void testFileSystemResource() throws Exception {
 
-		/*Resource r = new FileSystemResource("C:\\Users\\liuxin\\git-litespring\\src\\test\\resources\\petstore-v1.xml");
+		/*Resource r = new FileSystemResource("C:\\Users\\cw\\git-litespring\\src\\test\\resources\\petstore-v1.xml");
 
 		InputStream is = null;
 
