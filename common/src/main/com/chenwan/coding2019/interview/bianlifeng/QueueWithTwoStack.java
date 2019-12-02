@@ -1,5 +1,6 @@
 package main.com.chenwan.coding2019.interview.bianlifeng;
 
+import java.util.Random;
 import java.util.Stack;
 
 /**
@@ -26,7 +27,7 @@ public class QueueWithTwoStack<E> {
     /**
      * 出队
      */
-    public E pop() {
+    public E poll() {
 
         while (stack2.empty()) {
             while (!stack1.empty()) {
@@ -75,18 +76,17 @@ public class QueueWithTwoStack<E> {
 
     public static void main(String[] args) {
         QueueWithTwoStack<Integer> queue = new QueueWithTwoStack<Integer>();
-        boolean empty = queue.empty();
-        System.out.println("1:" + empty);
-
-        queue.offer(1);
-        Integer peek = queue.peek();
-        System.out.println("2:" + peek);
-
-        Integer pop = queue.pop();
-        System.out.println("3:" + pop);
-
-        boolean empty1 = queue.empty();
-        System.out.println("4:" + empty1);
+        Random rand = new Random();
+        for (int i = 0; i < 5; i++) {
+            int data = rand.nextInt(100);
+            System.out.print(data + " ");
+            queue.offer(data);
+        }
+        System.out.println();
+        System.out.println("出队：");
+        while (!queue.empty()) {
+            System.out.print(queue.poll()+" ");
+        }
     }
 
 }
